@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <style>
+        body {background-color: aqua;}
+
+    </style>
+</head>
+<body>
+    <h1>Parágrafos e Quebras de Linha</h1>
+    <hr>
+    <p>Você é livre 
+        para escrever um 
+        parágrafo 
+        de 
+        qualquer
+        jeito! 
+        basta colocar tudo dentro do par de tags p e /p 
+    </p>
+    <p>Se você quiser quebrar uma linha <br> basta usar a tag [ br ] ! caso contrário, não importa <br> onde <br> você <br> escrever <br> no parágrafo, tudo ficará na mesma linha.</p>
+    <p><br> Agora, vamos adicionar algumas imagens..</p>
+    <img src="Html5.png" alt="HTML5 Logo">
+     <h1>Hierarquias em Html ['h1']</h1>
+     <p>Explicação do que é Hierarquia de títulos em html css</p>
+     <h2>Sub hierarquia [ h2 ]</h2>
+     <p>podemos modificar como quisermos </p>
+     <h2>tadann [ h2 ]</h2>
+     <p>e Também repetir niveis hierarquicos quantas vezes quisermos, contanto que não estejamos pulando algum nível!</p>
+     <h3>Novamente [ h3 ]</h3>
+     <h4>Nunca Pular hierarquias [ h4 ]</h4>
+     <h5>Quase Na Ultima! [ h5 ]</h5>
+     <h6>.. O último Nível Hirearquico [ h6 ]</h6>
+     <h1>Negrito / Itálico em html:</h1>
+     <h2>Negrito:</h2>
+     <p>Podemos escrever um <b>texto em negrito</b> utilizando a tag [ b ] (não semântico)</p>
+     <p>Ou também escrever um <strong>Termo Destacado</strong> utilizando a tag [ STRONG ] (semântico)</p>
+     <h2>Itálico;</h2>
+     <p>Nesta Frase utilizamos um <i>termo itálico</i> utilizando a tag [i](não semântico)</p>
+     <p>Nesta frase temos um <em>Termo Ênfase</em> utilizando a tag [EM](semântico)</p>
+     <h2>Texto Marcado</h2>
+     <p>Podemos <mark style="background-color:rgb(255, 51, 0)">marcar um texto</mark> utilizando a tag [mark]</p>
+     <h2>Texto Grande e Pequeno</h2>
+     <p>Estamos criando um texto grande e um texto pqueno neste parágrafo</p>
+     <h2>Texto Excluído</h2>
+     <p>Podemos marcar um <del>texto Excluído</del> para indicar que ele deve ser lido, mas não deve ser considerado</p>
+     <h2>Texto Inserido</h2>
+     <p>podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele deve ser inserido depois</p>
+     <p>Existe também o <u>texto sublinhado com</u> a tag U (não semântico)</p>
+     <h2>Texto sobrescrito</h2>
+     <p>Para inserir coisas do tipo: x<sup>20</sup>+3</p>
+     <h2>Texto subscrito</h2>
+     <p>Para inseri coisas do tipo: H<sub>2</sub>O</p>
+     <h3>Outras Formatações</h3>
+     <h2>Código-Fonte / Pré-Formatação </h2>
+     <p>O Documento <code>document.getElementByID</code>('teste') é  escrito em linguagem javascript</p>
+      
+     <pre>
+         <code>
+             num = int(input(Digite um número))
+             if num % 2 == 0:
+                print(f'O número {num} é par')
+             else:
+                print(f'O número {num} é Ímpar!')
+             print('fim do programa')
+         </code>
+     </pre>
+     <h2>Citações simples</h2>
+     <p>Como diria o pai de um amigo: <q>O Computador é um burro muito rápido.</q></p>
+     <h2>Citações Completas</h2>
+     <p>Segundo Maurício Samy Silva, eem seu livro Fundamentos de HTML5 e CSS3:</p>
+     <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=0">
+        CSS3 ultrapassou o status de proposta de uma tecnologia que
+        prometia revolucionar a forma como estilizamos documentos para
+        a web e deve obrigatoriamente fazer parte do dia a dia dos
+        designers
+        </blockquote>
+     <h2>Abreviações</h2>
+     <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando!</p>
+     <h2>Texto Invertido</h2>
+     <p><bdo dir="rtl">ESTOU APRENDENDO A CRIAR coisas em html</bdo></p>
+     <h1>Trabalhando com listas</h1>
+     <h2>Listas Ordenadas:</h2>
+     <ol type="1"> <!-- 1 , A , a , I , i-->
+        <li>Acordar</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+     </ol>
+     <h2>Listas Não Ordenadas</h2>
+     <ul type="square"> <!--disc , circle , square-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>escovar os dentes</li>
+        <li>Estudar</li>
+     </ul>
+     <h2>Meus Video Games Favoritos (listas mistas)</h2>
+     <ol>
+        <li>PlayStation</li>
+        <ul>
+            <li>Play3</li>
+            <ul>
+                <li>Battlefield3</li>
+                <li>GTAV</li>
+                <li>Lego</li>
+            </ul>
+            <li>Play4</li>
+            <ul>
+                <li>BattleField4</li>
+                <li>GTAV</li>
+                <li>Gow2018</li>
+                <li>R6</li>
+                <li>For Honor</li>
+            </ul>
+        </ul>
+        <li>PC</li>
+        <ul>
+            <li>Roblox</li>
+            <li>CS:GO</li>
+            <li>SS</li>
+        </ul>
+     </ol>
+     <h2>Lista De Definição</h2>
+     <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação paea a criação da interatividade de um site</dd>
+     </dl>
+     <h1>Trabalhando com Links</h1>
+     <h2>Usando links Externos</h2>
+     <p>Se você Quiser aprender a usar links <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27">clique aqui</a></p>
+     <p>Se você Quer Acessar Meu Site <a href="https://valanchestore.mycartpanda.com/" target="_blank" rel="external">Clique Aqui</a></p>
+     <h2>Links Internos</h2>
+     <p>Se Quiser Ir Para A segunda página do site <a href="linkinterno.html" rel="next">clique aqui</a></p>
+     <h2>Links Para Download</h2>
+     <ul>
+        <li><a href="Downloads/BotDouble.PDF.pdf" download="BotDouble.PDF.pdf" type="application/pdf">Baixar Livro Em PDF</a></li>
+        <li><a href="Downloads/BotDouble.ZIP.zip" download="BotDouble.ZIP.zip" type="application/zip">Baixar Livro Em ZIP</a></li>
+     </ul>
+     <h2>Minhas Redes Sociais</h2>
+     <h3>Quem Sou Eu?</h3>
+     <img src="WhatsApp Image 2022-08-31 at 19.08.39.jpeg" alt="Foto Perfil">
+     <p>Meu nome é Kauan Valongo, estudo programação desde setembro de 2022 e estou fazendo o curso em video de html e css do guanabara!</p>
+     <h3>Como entrar em contato comigo?</h3>
+     <ul>
+        <li><a href="https://www.instagram.com/kauanvalongo/" target="_blank" rel="external">/kauanvalongo/</a> Me Segue lá No Insta</li>
+     </ul>
+     <h1>Colocando Áudios no Troço</h1>
+     <p>Vamos Aprender a reproduzir audios em html5</p>
+     <audio preload="metadata" autoplay controls>
+        <source src="2 Hearts - Patrick Patrikios.mp3" type="audio/mpeg">
+        <source src="2 Hearts - Patrick Patrikios.ogg" type="audio/ogg">
+        <source src="2 Hearts - Patrick Patrikios.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio <a href="2 Hearts - Patrick Patrikios.mp3">clique aqui para baixar o arquivo do audio :)</a></p>
+     </audio>
+     
+     <h1>Agora Vamos Colocar Um video!</h1>
+     <p>Este vídeo está hospedado no meu próprio sistema..</p>
+     <video src="cavalos.mp4.mp4" width="300" controls></video>
+     
+     <p>já este vídeo esta sendo importado do youtube(muito melhor)</p>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/e9dZQelULDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+</body>
+</html>
