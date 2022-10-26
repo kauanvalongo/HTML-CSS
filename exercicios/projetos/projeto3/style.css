@@ -71,12 +71,14 @@ section.normal {
 section.foto {
     background-color: rgb(43, 42, 42);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.445);
 }
 
 section.foto > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.589);
+    text-shadow: 1px 1px 0px black;
 }
 
 
